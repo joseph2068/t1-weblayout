@@ -1,0 +1,281 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.clear::before,
+.clear::after {
+    content: "";
+    display: table;
+}
+
+.clear::after {
+    clear: both;
+}
+
+.clear {
+    zoom: 1;
+    /*IE6, IE7*/
+}
+
+.wrap {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #EEE;
+}
+
+.header {
+    background-image: url(../image/logo.png);
+    background-repeat: no-repeat;
+    height: 102px;
+}
+
+.header ul {
+    float: left;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+.header ul li {
+    float: left;
+    color: black;
+    margin-right: 100px;
+}
+
+.header .special a{
+    color: orange;
+}
+
+.header ul li a {
+    text-decoration: none;
+}
+
+.header ul li a:hover {
+    color: orange;
+}
+
+.content ul li {
+	display: inline-block;
+	vertical-align :top;
+    width:46%;
+    margin:0 1%;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.content ul h1 {
+    font-size: 36px;
+}
+
+.content ul h2 {
+    font-size: 24px;
+}
+
+.content ul a {
+    display: block;
+    padding-left: 50px;
+    margin-top: 30px;
+}
+
+.content .button a{
+	display: block;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+.content .button {
+	margin-top: 50px;
+	margin-left: 40px;
+	padding-left: 60px;
+}
+
+.button p {
+    text-align: left;
+}
+
+.word {
+	padding-left: 50px;
+}
+
+.article h2{
+	padding-left:50px;
+}
+
+.article p{
+	padding-left: 50px;
+	margin-top: 20px; 
+}
+
+.articlere{
+	padding-top: 30px; 
+}
+
+.articlere p{
+	padding-left: 50px;
+	margin-top: 20px; 
+}
+
+
+.footer {
+    background-color: #EEE;
+    margin-top: 60px;
+    height: 60px;
+}
+
+.footer p{
+	display: inline;
+	line-height: 60px;
+	padding-left: 20px;
+}
+
+.footer ul{
+	float: right;
+	margin-top: 16px;
+	margin-right: 80px;
+}
+
+.footer ul li{
+	float: left;
+	margin-right: 10px;
+}
+
